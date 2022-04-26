@@ -11,11 +11,7 @@ namespace FoolingAround.Controllers
         // GET: StorePassword
         public ActionResult Password()
         {
-            string password = passwordText.Value;
-            if(passwordText.Value = 1)
-                {
-
-            }
+            
             return View();
         }
     }

@@ -11,10 +11,7 @@ namespace FoolingAround.Controllers
         public ActionResult Index()
         {
             string password = Request.Form["passwordText"];
-            if (password == "1")
-            {
-
-            }
+            
             return View();
         }
 
